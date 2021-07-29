@@ -1,7 +1,8 @@
 import React from "react";
+import { SectionOne } from "../components";
 
 const Main = () => {
-  return <div>Helo</div>;
+  return <SectionOne />;
 };
 
 export default Main;

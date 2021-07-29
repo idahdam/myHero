@@ -1,0 +1,42 @@
+.section-one-hero-container {
+  padding: 7.5rem 10rem 10rem 10rem;
+}
+
+.section-one-hero-column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.section-one-hero-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-one-hero-maintext {
+  color: #012d74;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.section-one-hero-description {
+  width: 60%;
+}
+
+.section-one-hero-maintext-red {
+  color: #eb0029;
+}
+
+.playstore {
+  transform: translate(-8%, 16%);
+}
+
+.appstore {
+  transform: translateX(-10%);
+}
+
+.idx {
+  transform: translateY(10%);
+}

@@ -11,11 +11,11 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            myHero
+            my<span className="nav-logo-red">hero</span>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            <li className="nav-item item">
               <NavLink
                 exact
                 to="/"
@@ -26,7 +26,7 @@ function NavBar() {
                 Fitur
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item item">
               <NavLink
                 exact
                 to="/about"
@@ -37,7 +37,7 @@ function NavBar() {
                 Promo
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item item">
               <NavLink
                 exact
                 to="/blog"
@@ -48,7 +48,7 @@ function NavBar() {
                 Produk
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item item">
               <NavLink
                 exact
                 to="/contact"
@@ -59,7 +59,7 @@ function NavBar() {
                 Blog
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item item">
               <NavLink
                 exact
                 to="/bantuan"

@@ -1,10 +1,10 @@
 .footer-container {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
-  height: 300px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: rgb(206, 192, 192);
+  height: 350px;
+  border-top-left-radius: 43px;
+  border-top-right-radius: 33px;
+  background-color: #f2f2f2;
 }
 
 .footer-main-column {
@@ -21,6 +21,78 @@
 }
 
 .footer-main-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-left-column-container {
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.footer-right-column-container {
+  padding-left: 15%;
+  padding-top: 4.5%;
+}
+
+.footer-left-column-title {
+  color: #012d74;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.footer-left-column-title-red {
+  color: #eb0029;
+}
+
+.footer-left-column-company-name {
+  font-weight: bold;
+}
+
+.footer-left-column-company-addr {
+  width: 75%;
+  padding-bottom: 1rem;
+}
+
+.footer-left-column-controlledby {
+  font-weight: bold;
+}
+
+.footer-right-column-column {
+  float: left;
+  width: 33.33%;
+}
+
+.footer-right-column-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-right-column-each-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.footer-right-column-each-content {
+  padding-top: 20px;
+}
+
+.footer-right-column-social-column {
+  float: left;
+}
+
+.social-left {
+  width: 15%;
+}
+
+.social-right {
+  width: 75%;
+}
+
+.footer-right-column-social-row:after {
   content: "";
   display: table;
   clear: both;
