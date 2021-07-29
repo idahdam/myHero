@@ -1,8 +1,39 @@
+@font-face {
+  font-family: "Product Sans Bold";
+  src: local("Product Sans"),
+    url("./fonts/product-sans-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Product Sans Italic";
+  src: local("Product Sans"),
+    url("./fonts/product-sans-italic.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Product Sans Light";
+  src: local("Product Sans"),
+    url("./fonts/product-sans-light.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Product Sans Medium";
+  src: local("Product Sans"),
+    url("./fonts/product-sans-medium.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Product Sans Regular";
+  src: local("Product Sans"),
+    url("./fonts/product-sans-regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Product Sans Light", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

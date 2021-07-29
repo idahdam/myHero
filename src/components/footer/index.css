@@ -39,7 +39,7 @@
 .footer-left-column-title {
   color: #012d74;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-family: "Product Sans Bold";
   padding-bottom: 1rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .footer-left-column-company-name {
-  font-weight: bold;
+  font-family: "Product Sans Bold";
 }
 
 .footer-left-column-company-addr {
@@ -57,7 +57,7 @@
 }
 
 .footer-left-column-controlledby {
-  font-weight: bold;
+  font-family: "Product Sans Bold";
 }
 
 .footer-right-column-column {
@@ -72,7 +72,7 @@
 }
 
 .footer-right-column-each-title {
-  font-weight: bold;
+  font-family: "Product Sans Bold";
   font-size: 1.5rem;
 }
 

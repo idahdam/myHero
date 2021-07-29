@@ -24,9 +24,9 @@ const SectionOne = () => {
               <img src={playstore} alt="playstore" className="playstore" />
               <img src={appstore} alt="appstore" className="appstore" />
             </div>
-            <div>
+            <div className="section-one-hero-controlledby">
               <br />
-              <b>Terdaftar dan diawasi oleh</b>
+              Terdaftar dan diawasi oleh
             </div>
             <div>
               <img src={ojk} alt="ojk" className="ojk" />

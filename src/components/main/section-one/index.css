@@ -16,7 +16,7 @@
 
 .section-one-hero-maintext {
   color: #012d74;
-  font-weight: 700;
+  font-family: "Product Sans Bold";
   font-size: 3rem;
   padding-bottom: 1rem;
 }
@@ -27,6 +27,10 @@
 
 .section-one-hero-maintext-red {
   color: #eb0029;
+}
+
+.section-one-hero-controlledby {
+  font-family: "Product Sans Bold";
 }
 
 .playstore {
