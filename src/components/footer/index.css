@@ -1,0 +1,27 @@
+.footer-container {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  height: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgb(206, 192, 192);
+}
+
+.footer-main-column {
+  float: left;
+  padding: 10px;
+}
+
+.footer-main-left {
+  width: 30%;
+}
+
+.footer-main-right {
+  width: 66.8%;
+}
+
+.footer-main-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

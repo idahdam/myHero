@@ -8,6 +8,12 @@
 # testing
 /coverage
 
+# local workspace
+*.vscode
+
+# formatter
+*.prettierrc
+
 # production
 /build
 
