@@ -1,8 +1,13 @@
 import React from "react";
-import { SectionOne } from "../components";
+import { SectionOne, SectionTwo } from "../components";
 
 const Main = () => {
-  return <SectionOne />;
+  return (
+    <>
+      <SectionOne />
+      <SectionTwo />
+    </>
+  );
 };
 
 export default Main;

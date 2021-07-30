@@ -23,7 +23,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Fitur
+                Promo
               </NavLink>
             </li>
             <li className="nav-item item">
@@ -34,7 +34,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Promo
+                Fitur
               </NavLink>
             </li>
             <li className="nav-item item">

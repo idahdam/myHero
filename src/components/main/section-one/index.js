@@ -4,6 +4,7 @@ import playstore from "../../../assets/section-one-hero/google-playstore.png";
 import appstore from "../../../assets/section-one-hero/apple-appstore.png";
 import ojk from "../../../assets/section-one-hero/ojk.png";
 import idx from "../../../assets/section-one-hero/idx.png";
+import mockup from "../../../assets/section-one-hero/mockup.png";
 
 const SectionOne = () => {
   return (
@@ -34,7 +35,9 @@ const SectionOne = () => {
             </div>
           </div>
           <div className="section-one-hero-column">
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            <div className="section-one-hero-mockup">
+              <img src={mockup} alt="mockup" className="mockup" />
+            </div>
           </div>
         </div>
       </div>
