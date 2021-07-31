@@ -1,0 +1,60 @@
+.section-one-hero-container {
+  padding: 7.5rem 10rem 5rem 10rem;
+}
+
+.section-one-hero-column {
+  float: left;
+  width: 50%;
+}
+
+.section-one-hero-carousel {
+  padding-top: 2.5rem;
+}
+
+.section-one-carousel-image {
+  width: 275px;
+}
+
+/* Clear floats after the columns */
+.section-one-hero-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-one-hero-maintext {
+  color: #012d74;
+  font-family: "Product Sans Bold";
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-one-hero-description {
+  width: 60%;
+}
+
+.section-one-hero-maintext-red {
+  color: #eb0029;
+}
+
+.section-one-hero-controlledby {
+  font-family: "Product Sans Bold";
+}
+
+.playstore {
+  transform: translate(-8%, 16%);
+}
+
+.appstore {
+  transform: translateX(-10%);
+}
+
+.idx {
+  transform: translateY(10%);
+}
+
+.mockup {
+  transform: translate(20%, -15%);
+  max-width: 23rem;
+}
