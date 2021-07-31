@@ -1,11 +1,18 @@
 import React from "react";
-import { SectionOne, SectionTwo } from "../components";
+import {
+  SectionOne,
+  SectionTwo,
+  SectionFive,
+  SectionThree,
+} from "../components";
 
 const Main = () => {
   return (
     <>
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
+      <SectionFive />
     </>
   );
 };
