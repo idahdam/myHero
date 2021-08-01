@@ -1,3 +1,7 @@
+.section-one-hero-container {
+  padding: 0;
+}
+
 .section-one-hero-column {
   float: left;
   width: 50%;
