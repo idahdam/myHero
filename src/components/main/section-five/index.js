@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import SectionFiveCarousel from "./carousel";
+import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "./index.css";
-import review1 from "../../../assets/section-five/review-1.png";
-import review2 from "../../../assets/section-five/review-2.png";
-import review3 from "../../../assets/section-five/review-3.png";
 
 const SectionFive = () => {
+  const [value, setValue] = useState(0);
+  const [slides] = useState([<SectionFiveCarousel />, <SectionFiveCarousel />]);
+
+  const onChangeCarousel = (value) => {
+    setValue(value);
+  };
   return (
     <div className="section-five-container">
       <div className="section-five-text-container">
@@ -16,56 +21,8 @@ const SectionFive = () => {
           egetfeugiat. Mauris laoreet odio ex. Quisque eget ex
         </div>
       </div>
-      <div className="section-five-reviews">
-        <div className="section-five-reviews-row">
-          <div className="section-five-reviews-column">
-            <div>
-              <img
-                src={review1}
-                alt="review"
-                className="section-five-review-image"
-              />
-            </div>
-            <div className="section-five-review-text">
-              Nullam mollis sed magna et hendrerit. vsit amet ante iaculis eget
-              urna egetfeugiat.
-            </div>
-            <div className="section-five-review-person">
-              John Doe, Wiraswasta
-            </div>
-          </div>
-          <div className="section-five-reviews-column">
-            <div>
-              <img
-                src={review2}
-                alt="review"
-                className="section-five-review-image"
-              />
-            </div>
-            <div className="section-five-review-text">
-              Nullam mollis sed magna et hendrerit. vsit amet ante iaculis eget
-              urna egetfeugiat.
-            </div>
-            <div className="section-five-review-person">Alex, Wiraswasta</div>
-          </div>
-          <div className="section-five-reviews-column">
-            <div>
-              <img
-                src={review3}
-                alt="review"
-                className="section-five-review-image"
-              />
-            </div>
-            <div className="section-five-review-text">
-              Nullam mollis sed magna et hendrerit. vsit amet ante iaculis eget
-              urna egetfeugiat.
-            </div>
-            <div className="section-five-review-person">
-              JAnastasia, Wiraswasta
-            </div>
-          </div>
-        </div>
-      </div>
+      <Carousel value={value} slides={slides} onChange={onChangeCarousel} />
+      <Dots value={value} onChange={onChangeCarousel} number={slides.length} />
     </div>
   );
 };
