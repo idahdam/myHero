@@ -1,0 +1,16 @@
+.playstore {
+  transform: translate(-8%, 16%);
+}
+
+.appstore {
+  transform: translateX(-10%);
+}
+
+.idx {
+  transform: translateY(10%);
+}
+
+.mockup {
+  transform: translate(30%, 0%);
+  max-width: 24rem;
+}

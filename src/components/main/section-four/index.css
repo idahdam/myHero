@@ -1,0 +1,27 @@
+.section-four-container {
+  padding: 1rem 0 5rem 10rem;
+}
+
+.section-four-image-container {
+  padding: 5%;
+}
+
+.section-four-image {
+  max-width: 275px;
+}
+
+.section-four-row {
+  display: flex;
+}
+
+.section-four-column {
+  float: left;
+}
+
+.four-left {
+  width: 30%;
+}
+
+.four-right {
+  width: 70%;
+}

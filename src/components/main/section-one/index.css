@@ -1,5 +1,5 @@
 .section-one-hero-container {
-  padding: 7.5rem 10rem 5rem 10rem;
+  padding: 0;
 }
 
 .section-one-hero-column {
@@ -8,11 +8,12 @@
 }
 
 .section-one-hero-carousel {
-  padding-top: 2.5rem;
+  margin: auto;
+  padding: 5rem 5rem 2.5rem 5rem;
 }
 
-.section-one-carousel-image {
-  width: 275px;
+.section-one-reviewer-image {
+  width: 250px;
 }
 
 /* Clear floats after the columns */
@@ -38,23 +39,28 @@
   color: #eb0029;
 }
 
+.section-one-hero-reviewed {
+  padding-top: 2.5rem;
+}
+
 .section-one-hero-controlledby {
   font-family: "Product Sans Bold";
 }
 
-.playstore {
-  transform: translate(-8%, 16%);
+.section-one-hero-reviewed {
+  padding-top: 1rem;
+  margin: auto;
+  width: 85%;
 }
 
-.appstore {
-  transform: translateX(-10%);
+.section-one-hero-reviewed-column {
+  float: left;
+  width: 20%;
 }
 
-.idx {
-  transform: translateY(10%);
-}
-
-.mockup {
-  transform: translate(20%, -15%);
-  max-width: 23rem;
+/* Clear floats after the columns */
+.section-one-hero-reviewed-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
