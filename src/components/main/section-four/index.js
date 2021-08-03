@@ -160,7 +160,9 @@ const SectionFour = () => {
               </div>
               <div className="section-four-steps-column steps-right">
                 <span className={stepOne ? "dot-large" : "dot"}></span>
+                <br />
                 <span className={stepTwo ? "dot-large" : "dot"}></span>
+                <br />
                 <span className={stepThree ? "dot-large" : "dot"}></span>
               </div>
             </div>
