@@ -2,6 +2,33 @@
   padding: 1rem 0 5rem 10rem;
 }
 
+.section-four-steps-container {
+  width: 100%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.section-four-steps-column {
+  float: left;
+}
+
+.steps-left {
+  width: 70%;
+}
+
+.steps-right {
+  padding-top: 7%;
+  padding-left: 7%;
+  width: 5%;
+}
+
+/* Clear floats after the columns */
+.section-four-steps-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .section-four-image-container {
   padding: 5%;
 }
@@ -18,8 +45,118 @@
   float: left;
 }
 
+.section-four-title {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-family: "Product Sans Bold";
+  font-size: 3rem;
+  color: #0d5798;
+}
+
+.section-four-title-red {
+  color: #eb0029;
+}
+.section-four-step-opened {
+  transition: 0.3s ease-in-out;
+  border: 3px solid #0d5798;
+  border-radius: 5px;
+  width: 100%;
+  margin: 2% 0 2% 0;
+  padding: 1%;
+}
+
+.section-four-step-closed {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: 5px solid #0d5798;
+  border-radius: 5px;
+  margin: 2% 0 2% 0;
+  background-color: #0d5798;
+  width: 100%;
+  height: 3rem;
+  padding: 1%;
+}
+
+.section-four-step-title-opened {
+  font-family: "Product Sans Bold";
+  color: #0d5798;
+  font-size: 1.5rem;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 4%;
+}
+
+.section-four-step-title-closed {
+  margin: auto;
+  font-family: "Product Sans Bold";
+  color: white;
+  padding-top: 1.5%;
+  font-size: 1.5rem;
+}
+
+.section-four-step-description {
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 2%;
+  width: 75%;
+}
+
+.section-four-step-content-column {
+  float: left;
+}
+
+.step-content-left {
+  width: 80%;
+}
+
+.step-content-right {
+  padding-top: 3%;
+  width: 20%;
+}
+
+.section-four-step-content-button {
+  background-color: #0d5798;
+  font-family: "Product Sans Bold";
+  color: white;
+  border-radius: 32px;
+  padding: 10%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Clear floats after the columns */
+.section-four-step-content-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .four-left {
   width: 30%;
+}
+
+.dot {
+  display: none;
+  transition: 0.3s ease-in-out;
+  height: 0.75rem;
+  width: 0.75rem;
+  background-color: #b7c8d7;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 45%;
+  margin-bottom: 3%;
+}
+
+.dot-large {
+  display: none;
+  transition: 0.3s ease-in-out;
+  height: 4rem;
+  width: 0.75rem;
+  background-color: #b7c8d7;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 45%;
+  margin-bottom: 3%;
 }
 
 .four-right {
