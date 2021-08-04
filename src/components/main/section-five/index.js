@@ -22,6 +22,7 @@ const SectionFive = () => {
         </div>
       </div>
       <Carousel value={value} slides={slides} onChange={onChangeCarousel} />
+      <br />
       <Dots value={value} onChange={onChangeCarousel} number={slides.length} />
     </div>
   );

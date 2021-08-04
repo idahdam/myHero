@@ -81,13 +81,13 @@ const Footer = () => {
                     <div className="footer-right-column-social-row">
                       <div className="footer-right-column-social-column social-left">
                         <div className="footer-right-column-each-content">
-                          <FaInstagram />
+                          <FaInstagram size={17} />
                         </div>
                         <div className="footer-right-column-each-content">
-                          <FaLinkedinIn />
+                          <FaLinkedinIn size={17} />
                         </div>
                         <div className="footer-right-column-each-content">
-                          <FaYoutube />
+                          <FaYoutube size={17} />
                         </div>
                       </div>
                       <div className="footer-right-column-social-column social-right">

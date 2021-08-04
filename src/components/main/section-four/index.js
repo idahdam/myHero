@@ -73,7 +73,7 @@ const SectionFour = () => {
                               to="/"
                               className="section-four-step-content-button"
                             >
-                              Learn more
+                              Learn More
                             </Link>
                           </div>
                         </div>
@@ -133,7 +133,7 @@ const SectionFour = () => {
                           : "section-four-step-title-closed"
                       }
                     >
-                      Step Three
+                      Last Step
                     </div>
                     {stepThree ? (
                       <>

@@ -1,5 +1,7 @@
 .section-four-container {
-  padding: 1rem 0 5rem 10rem;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  padding: 0 0 0 10rem;
 }
 
 .section-four-steps-container {
@@ -13,7 +15,7 @@
 }
 
 .steps-left {
-  width: 70%;
+  width: 75%;
 }
 
 .steps-right {
@@ -47,10 +49,10 @@
 
 .section-four-title {
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
   font-family: "Product Sans Bold";
   font-size: 3rem;
-  color: #0d5798;
+  color: #012d74;
 }
 
 .section-four-title-red {
@@ -58,11 +60,11 @@
 }
 .section-four-step-opened {
   transition: 0.3s ease-in-out;
-  border: 3px solid #0d5798;
+  border: 2px solid #0d5798;
   border-radius: 5px;
   width: 100%;
   margin: 2% 0 2% 0;
-  padding: 1%;
+  padding: 1.5%;
 }
 
 .section-four-step-closed {
@@ -98,7 +100,7 @@
   padding-top: 1%;
   padding-left: 1%;
   padding-bottom: 2%;
-  width: 75%;
+  width: 59%;
 }
 
 .section-four-step-content-column {
@@ -106,12 +108,12 @@
 }
 
 .step-content-left {
-  width: 80%;
+  width: 82%;
 }
 
 .step-content-right {
   padding-top: 3%;
-  width: 20%;
+  width: 18%;
 }
 
 .section-four-step-content-button {
@@ -119,7 +121,8 @@
   font-family: "Product Sans Bold";
   color: white;
   border-radius: 32px;
-  padding: 10%;
+  padding: 7% 12% 7% 12%;
+  width: 100%;
   cursor: pointer;
   text-decoration: none;
 }

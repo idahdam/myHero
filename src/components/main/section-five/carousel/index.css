@@ -21,21 +21,23 @@
 }
 
 .section-five-review-image {
-  width: 85%;
+  width: 90%;
 }
 
 .section-five-review-text {
   padding-top: 2%;
   color: #8eadc1;
-  padding-left: 7.5%;
+  padding-left: 5%;
   text-align: left;
-  width: 80%;
+  width: 90%;
+  font-size: 1.125rem;
 }
 
 .section-five-review-person {
   font-family: "Product Sans Bold";
+  font-size: 1.125rem;
   padding-top: 5%;
   text-align: left;
-  padding-left: 7.5%;
+  padding-left: 5%;
   color: #0d5798;
 }

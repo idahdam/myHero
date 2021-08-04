@@ -25,10 +25,10 @@
   color: #012d74;
   align-items: center;
   font-family: "Product Sans Bold";
-  margin-left: 20px;
+  margin-left: 35px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.65rem;
   flex-grow: 1;
 }
 

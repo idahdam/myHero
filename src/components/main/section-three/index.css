@@ -1,6 +1,6 @@
 .section-three-container {
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
 }
 .section-three-text-container {
   margin: auto;
@@ -18,13 +18,15 @@
 }
 .section-three-desc {
   padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 1.125rem;
   color: #8eadc1;
 }
 
 .section-three-video-container {
   margin: auto;
-  width: 85%;
+  width: 80%;
 }
 .section-three-video {
   max-width: 100%;
