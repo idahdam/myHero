@@ -1,4 +1,5 @@
 .section-five-container {
+  padding-top: 2.5%;
   padding-bottom: 5%;
 }
 
@@ -8,6 +9,7 @@
   padding: 10px;
   text-align: center;
 }
+
 .section-five-title {
   font-size: 2rem;
   font-family: "Product Sans Bold";
@@ -20,48 +22,8 @@
 
 .section-five-desc {
   padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 1.125rem;
   color: #8eadc1;
 }
-
-/* .section-five-reviews {
-  padding-top: 5%;
-} */
-
-/* .section-five-reviews-column {
-  float: left;
-  width: 33.33%;
-}
-
-.section-five-reviews-row {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
-  text-align: center;
-} */
-
-/* .section-five-reviews-row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/* .section-five-review-image {
-  width: 85%;
-} */
-
-/* .section-five-review-text {
-  padding-top: 2%;
-  color: #8eadc1;
-  padding-left: 7.5%;
-  text-align: left;
-  width: 80%;
-}
-
-.section-five-review-person {
-  font-family: "Product Sans Bold";
-  padding-top: 5%;
-  text-align: left;
-  padding-left: 7.5%;
-  color: #0d5798;
-} */

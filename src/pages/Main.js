@@ -5,11 +5,13 @@ import {
   SectionFive,
   SectionThree,
   SectionFour,
+  ContactUs,
 } from "../components";
 
 const Main = () => {
   return (
     <>
+      <ContactUs />
       <SectionOne />
       <SectionTwo />
       <SectionThree />

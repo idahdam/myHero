@@ -19,7 +19,7 @@ const SectionOneCarousel = () => {
           Nullam mollis sed magna et hendrerit. sit amet ante iaculis eget urna
           egetfeugiat. Mauris laoreet odio ex. Quisque eget ex
         </div>
-        <div>
+        <div className="section-one-hero-ojk-idx">
           <a href="http://google.com" target="_blank" rel="noreferrer">
             <img src={playstore} alt="playstore" className="playstore" />
           </a>

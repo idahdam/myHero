@@ -49,7 +49,7 @@ const SectionFiveCarousel = () => {
             urna egetfeugiat.
           </div>
           <div className="section-five-review-person">
-            JAnastasia, Wiraswasta
+            Anastasia, Wiraswasta
           </div>
         </div>
       </div>

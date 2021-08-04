@@ -6,11 +6,11 @@ import React, { useState } from "react";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "./index.css";
-import image1 from "../../../assets/section-one-hero/carousel-1.png";
-import image2 from "../../../assets/section-one-hero/carousel-2.png";
-import image3 from "../../../assets/section-one-hero/carousel-3.png";
-import image4 from "../../../assets/section-one-hero/carousel-4.png";
-import image5 from "../../../assets/section-one-hero/carousel-5.png";
+import investordaily from "../../../assets/section-one-hero/investordaily.png";
+import forbes from "../../../assets/section-one-hero/forbes.png";
+import techinasia from "../../../assets/section-one-hero/techinasia.png";
+import cnbc from "../../../assets/section-one-hero/cnbc.png";
+import kompas from "../../../assets/section-one-hero/kompas.png";
 import SectionOneCarousel from "./carousel";
 
 const SectionOne = () => {
@@ -33,6 +33,7 @@ const SectionOne = () => {
         <div className="section-one-hero-carousel">
           <Carousel value={value} slides={slides} onChange={onChangeCarousel} />
         </div>
+        <div className="section-one-hero-covered-by">Telah Diliput Oleh</div>
         <Dots
           value={value}
           onChange={onChangeCarousel}
@@ -42,7 +43,7 @@ const SectionOne = () => {
           <div className="section-one-hero-reviewed-row">
             <div className="section-one-hero-reviewed-column">
               <img
-                src={image1}
+                src={investordaily}
                 alt="reviewer"
                 className="section-one-reviewer-image"
               />
@@ -50,28 +51,28 @@ const SectionOne = () => {
             <div className="section-one-hero-reviewed-column">
               {" "}
               <img
-                src={image2}
+                src={forbes}
                 alt="reviewer"
                 className="section-one-reviewer-image"
               />
             </div>
             <div className="section-one-hero-reviewed-column">
               <img
-                src={image3}
+                src={techinasia}
                 alt="reviewer"
                 className="section-one-reviewer-image"
               />
             </div>
             <div className="section-one-hero-reviewed-column">
               <img
-                src={image4}
+                src={cnbc}
                 alt="reviewer"
                 className="section-one-reviewer-image"
               />
             </div>
             <div className="section-one-hero-reviewed-column">
               <img
-                src={image5}
+                src={kompas}
                 alt="reviewer"
                 className="section-one-reviewer-image"
               />
