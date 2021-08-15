@@ -1,7 +1,11 @@
 .section-four-container {
   padding-top: 2.5%;
   padding-bottom: 5%;
-  padding: 0 0 0 10rem;
+  z-index: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-four-steps-container {
@@ -22,6 +26,10 @@
   padding-top: 7%;
   padding-left: 7%;
   width: 5%;
+}
+
+.section-four-steps-row {
+  width: 900px;
 }
 
 /* Clear floats after the columns */
@@ -164,4 +172,20 @@
 
 .four-right {
   width: 70%;
+}
+
+@media screen and (max-width: 960px) {
+  .section-four-steps-row {
+    width: 100px;
+  }
+  .section-four-steps-column {
+    float: left;
+    width: 100%;
+  }
+  .four-right {
+    width: 100%;
+  }
+  .section-four-column {
+    width: 100%;
+  }
 }

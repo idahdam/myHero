@@ -4,8 +4,20 @@ import "./index.css";
 
 function NavBar() {
   const [click, setClick] = useState(false);
+  // eslint-disable-next-line no-unused-vars
+  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  // eslint-disable-next-line no-unused-vars
+  const closeMobileMenu = () => setClick(true);
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+  window.addEventListener("resize", showButton);
   return (
     <>
       <nav className="navbar">
@@ -14,7 +26,7 @@ function NavBar() {
             my<span className="nav-logo-red">hero</span>
           </NavLink>
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav-menu active" : "nav-menu"} ibC>
             <li className="nav-item item">
               <NavLink
                 exact
