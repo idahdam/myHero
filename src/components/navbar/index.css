@@ -117,13 +117,13 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     background-color: #012d74;
     border-top: 1px solid #fff;
     position: absolute;
     top: 4rem;
     padding-bottom: 4rem;
-    left: -105%;
+    left: -115%;
     opacity: 1;
     transition: all 0.5s ease;
     text-align: center;
@@ -132,7 +132,9 @@
   .nav-menu.active {
     background: #012d74;
     left: 0px;
+    margin-left: -2rem;
     opacity: 1;
+    height: 120vh;
     transition: all 0.5s ease;
     z-index: 1;
   }
@@ -148,6 +150,7 @@
     padding: 1.5rem 0;
     width: 100%;
     display: table;
+    color: white;
   }
 
   .nav-icon {

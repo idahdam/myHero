@@ -36,3 +36,17 @@
 .section-three-video {
   max-width: 100%;
 }
+
+@media screen and (max-width: 960px) {
+  .section-three-text-container {
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+  }
+  .section-three-title {
+    font-size: 2rem;
+    font-family: "Product Sans Bold";
+    color: #012d74;
+  }
+}

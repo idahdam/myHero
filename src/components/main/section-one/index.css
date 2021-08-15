@@ -89,18 +89,21 @@
   }
   .section-one-hero-carousel {
     margin: auto;
-    padding: 3rem 1.5rem 3rem 3rem;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
   }
   .section-one-hero-column {
     float: left;
-
     width: 100%;
   }
   .section-one-hero-maintext {
     color: #012d74;
     font-family: "Product Sans Bold";
-    font-size: 3.21rem;
+    font-size: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .section-one-hero-description {
+    width: 62%;
+    font-size: 1rem;
   }
 }

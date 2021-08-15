@@ -32,3 +32,19 @@
   font-size: 1.125rem;
   color: #8eadc1;
 }
+
+@media screen and (max-width: 960px) {
+  .section-five-desc {
+    padding-top: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.125 rem;
+    color: #8eadc1;
+  }
+  .section-five-text-container {
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+  }
+}
