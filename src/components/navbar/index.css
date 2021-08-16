@@ -18,7 +18,7 @@
   align-items: center;
   width: 100%;
   height: 80px;
-  max-width: 1500px;
+  max-width: 1300px;
 }
 
 .nav-logo {
@@ -40,7 +40,7 @@
   display: flex;
   list-style: none;
   text-align: center;
-  margin-right: 2rem;
+  margin-right: 0;
 }
 
 .nav-links {
@@ -78,7 +78,7 @@
   height: 3px;
   width: 0;
   background: transparent;
-  transition: width 0.7s ease, background-color 0.5s ease;
+  transition: 0.7s ease, background-color 0.5s ease;
 }
 
 /* .nav-item:hover:after {
@@ -93,7 +93,6 @@
 
 .item .active {
   color: #012d74;
-  border: 1px solid #012d74;
 }
 
 .nav-icon {
@@ -101,33 +100,57 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    z-index: 20;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1pxsolid #fff;
+    background-color: #012d74;
+    border-top: 1px solid #fff;
     position: absolute;
-    top: 80px;
-    left: -110%;
+    top: 4rem;
+    padding-bottom: 4rem;
+    left: -115%;
     opacity: 1;
     transition: all 0.5s ease;
+    text-align: center;
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background: #012d74;
     left: 0px;
+    margin-left: -2rem;
     opacity: 1;
+    height: 120vh;
     transition: all 0.5s ease;
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: white;
     border: none;
   }
+  .nav-item {
+    line-height: 40px;
+    text-align: center;
+  }
   .nav-links {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     width: 100%;
     display: table;
+    color: white;
   }
 
   .nav-icon {
@@ -138,6 +161,17 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #012d74;
+  }
+
+  .nav-logo {
+    color: #012d74;
+    align-items: center;
+    font-family: "Product Sans Bold";
+    margin-left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.65rem;
+    flex-grow: 1;
   }
 }

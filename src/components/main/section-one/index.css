@@ -1,5 +1,10 @@
 .section-one-hero-container {
   padding: 0;
+  z-index: 1;
+  width: 100%;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-one-hero-column {
@@ -9,7 +14,7 @@
 
 .section-one-hero-carousel {
   margin: auto;
-  padding: 2rem 10rem 1rem 11rem;
+  padding: 2rem 10rem 1rem 10rem;
 }
 
 .section-one-reviewer-image {
@@ -36,8 +41,8 @@
 }
 
 .section-one-hero-covered-by {
-  padding: 0 10rem 0 11rem;
-  transform: translateY(1.5rem);
+  padding: 0 1.5rem 0 1rem;
+  transform: translate(1rem, 1.75rem);
   font-family: "Product Sans Bold";
   font-size: 1.125rem;
 }
@@ -63,7 +68,7 @@
 .section-one-hero-reviewed {
   padding-top: 1rem;
   margin: auto;
-  width: 82%;
+  width: 80%;
 }
 
 .section-one-hero-reviewed-column {
@@ -71,9 +76,54 @@
   width: 20%;
 }
 
+.section-one-dots-carousel {
+  color: black;
+}
+
 /* Clear floats after the columns */
 .section-one-hero-reviewed-row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 960px) {
+  .section-one-hero-reviewed {
+    display: block;
+  }
+  .section-one-hero-reviewed-column {
+    margin: auto;
+    width: 50%;
+  }
+  .section-one-hero-carousel {
+    margin: auto;
+    padding: 1.5rem 2.5rem;
+  }
+  .section-one-hero-column {
+    float: left;
+    width: 100%;
+  }
+  .section-one-hero-maintext {
+    color: #012d74;
+    font-family: "Product Sans Bold";
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .section-one-hero-description {
+    width: 62%;
+    font-size: 1rem;
+  }
+  .section-one-reviewer-image {
+    width: 125px;
+  }
+  .section-one-hero-reviewed-row {
+    margin: auto;
+    width: 100%;
+  }
+  .section-one-hero-covered-by-mobile {
+    text-align: center;
+    font-family: "Product Sans Bold";
+    padding-bottom: 0.75rem;
+  }
 }
