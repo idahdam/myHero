@@ -41,3 +41,22 @@
   padding-left: 5%;
   color: #0d5798;
 }
+
+@media screen and (max-width: 960px) {
+  .section-five-review-text {
+    padding-top: 2%;
+    color: #8eadc1;
+    padding-left: 5%;
+    text-align: left;
+    width: 90%;
+    font-size: 0.875rem;
+  }
+  .section-five-review-person {
+    font-family: "Product Sans Bold";
+    font-size: 1rem;
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 5%;
+    color: #0d5798;
+  }
+}

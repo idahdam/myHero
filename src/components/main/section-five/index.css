@@ -38,7 +38,7 @@
     padding-top: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 1.125 rem;
+    font-size: 1rem;
     color: #8eadc1;
   }
   .section-five-text-container {
@@ -46,5 +46,10 @@
     width: 85%;
     padding: 10px;
     text-align: center;
+  }
+  .section-five-title {
+    font-size: 1.5rem;
+    font-family: "Product Sans Bold";
+    color: #012d74;
   }
 }

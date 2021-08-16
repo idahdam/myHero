@@ -45,8 +45,15 @@
     text-align: center;
   }
   .section-three-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Product Sans Bold";
     color: #012d74;
+  }
+  .section-three-desc {
+    padding-top: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1rem;
+    color: #8eadc1;
   }
 }

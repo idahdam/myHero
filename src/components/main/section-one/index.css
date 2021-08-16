@@ -76,6 +76,10 @@
   width: 20%;
 }
 
+.section-one-dots-carousel {
+  color: black;
+}
+
 /* Clear floats after the columns */
 .section-one-hero-reviewed-row:after {
   content: "";
@@ -85,11 +89,15 @@
 
 @media screen and (max-width: 960px) {
   .section-one-hero-reviewed {
-    display: none;
+    display: block;
+  }
+  .section-one-hero-reviewed-column {
+    margin: auto;
+    width: 50%;
   }
   .section-one-hero-carousel {
     margin: auto;
-    padding: 1.5rem 1.5rem 1.5rem 3rem;
+    padding: 1.5rem 2.5rem;
   }
   .section-one-hero-column {
     float: left;
@@ -105,5 +113,17 @@
   .section-one-hero-description {
     width: 62%;
     font-size: 1rem;
+  }
+  .section-one-reviewer-image {
+    width: 125px;
+  }
+  .section-one-hero-reviewed-row {
+    margin: auto;
+    width: 100%;
+  }
+  .section-one-hero-covered-by-mobile {
+    text-align: center;
+    font-family: "Product Sans Bold";
+    padding-bottom: 0.75rem;
   }
 }

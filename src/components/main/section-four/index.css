@@ -197,7 +197,7 @@
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     font-family: "Product Sans Bold";
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #012d74;
   }
@@ -216,7 +216,7 @@
   .section-four-step-title-opened {
     font-family: "Product Sans Bold";
     color: #0d5798;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-top: 1%;
     padding-left: 3%;
     padding-bottom: 4%;
@@ -226,9 +226,9 @@
     margin: auto;
     font-family: "Product Sans Bold";
     color: white;
-    padding-top: 1.5%;
+    padding-top: 3%;
     padding-left: 3%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .four-left {
     width: 0%;
