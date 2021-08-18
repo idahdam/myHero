@@ -8,6 +8,7 @@ import "react-magic-slider-dots/dist/magic-dots.css";
 import "./index.css";
 
 const SectionFive = () => {
+  // Settings for sliders/carousel
   const settings = {
     dots: true,
     arrows: false,

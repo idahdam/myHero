@@ -18,14 +18,8 @@ import MagicSliderDots from "react-magic-slider-dots";
 import "react-magic-slider-dots/dist/magic-dots.css";
 
 const SectionOne = () => {
-  const [click, setClick] = useState(false);
   // eslint-disable-next-line no-unused-vars
   const [button, setButton] = useState(true);
-
-  // eslint-disable-next-line no-unused-vars
-  const handleClick = () => setClick(!click);
-  // eslint-disable-next-line no-unused-vars
-  const closeMobileMenu = () => setClick(true);
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -35,6 +29,7 @@ const SectionOne = () => {
   };
   window.addEventListener("resize", showButton);
 
+  // Settings for carousel/sliders
   const settings = {
     dots: true,
     arrows: false,

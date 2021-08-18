@@ -7,14 +7,8 @@ import idx from "../../../../assets/section-one-hero/idx.png";
 import mockup from "../../../../assets/section-one-hero/mockup.png";
 
 const SectionOneCarousel = () => {
-  const [click, setClick] = useState(false);
   // eslint-disable-next-line no-unused-vars
   const [button, setButton] = useState(true);
-
-  // eslint-disable-next-line no-unused-vars
-  const handleClick = () => setClick(!click);
-  // eslint-disable-next-line no-unused-vars
-  const closeMobileMenu = () => setClick(true);
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
