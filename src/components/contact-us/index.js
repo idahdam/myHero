@@ -9,20 +9,44 @@ const ContactUs = () => {
   return (
     <>
       <div className="contactus-container">
-        <div className="contact-us-item-container">
-          <a href="http://google.com">
-            <img src={img1} alt="contact us item" className="contact-us-item" />
-          </a>
-          <a href="http://google.com">
-            <img src={img2} alt="contact us item" className="contact-us-item" />
-          </a>
-          <a href="http://google.com">
-            <img src={img3} alt="contact us item" className="contact-us-item" />
-          </a>
-          <a href="http://google.com">
-            <img src={img4} alt="contact us item" className="contact-us-item" />
-          </a>
-        </div>
+        <ul className="contact-us-item-container">
+          <li className="contact-us-item-list">
+            <a href="http://google.com">
+              <img
+                src={img1}
+                alt="contact us item"
+                className="contact-us-item"
+              />
+            </a>
+          </li>
+          <li className="contact-us-item-list">
+            <a href="http://google.com">
+              <img
+                src={img2}
+                alt="contact us item"
+                className="contact-us-item"
+              />
+            </a>
+          </li>
+          <li className="contact-us-item-list">
+            <a href="http://google.com">
+              <img
+                src={img3}
+                alt="contact us item"
+                className="contact-us-item"
+              />
+            </a>
+          </li>
+          <li className="contact-us-item-list">
+            <a href="http://google.com">
+              <img
+                src={img4}
+                alt="contact us item"
+                className="contact-us-item"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </>
   );

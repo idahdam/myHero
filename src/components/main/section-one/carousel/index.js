@@ -18,10 +18,8 @@ const SectionOneCarousel = () => {
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
-      console.log("mobie!");
     } else {
       setButton(true);
-      console.log("desk!");
     }
   };
   window.addEventListener("resize", showButton);
