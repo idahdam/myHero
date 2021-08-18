@@ -86,7 +86,7 @@ const SectionOneCarousel = () => {
               <br />
               Terdaftar dan diawasi oleh
             </div>
-            <div>
+            <div className="section-one-hero-ojk-idx">
               <img src={ojk} alt="ojk" className="ojk" />
               <img src={idx} alt="idx" className="idx" />
             </div>

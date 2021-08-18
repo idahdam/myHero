@@ -62,7 +62,12 @@
 }
 
 .section-one-hero-ojk-idx {
-  padding: -1%;
+  display: flex;
+}
+
+.section-one-hero-ojk-idx-col {
+  flex: 50%;
+  padding: 5px;
 }
 
 .section-one-hero-reviewed {
@@ -97,7 +102,7 @@
   }
   .section-one-hero-carousel {
     margin: auto;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 2rem;
   }
   .section-one-hero-column {
     float: left;

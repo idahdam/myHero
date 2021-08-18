@@ -34,6 +34,10 @@
 }
 
 @media screen and (max-width: 960px) {
+  .section-five-container {
+    padding-bottom: 2.5rem;
+  }
+
   .section-five-desc {
     padding-top: 2.5%;
     padding-left: 5%;

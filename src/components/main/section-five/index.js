@@ -1,15 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
 import SectionFiveCarousel from "./carousel";
-import Carousel, { Dots } from "@brainhubeu/react-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import MagicSliderDots from "react-magic-slider-dots";
+import "react-magic-slider-dots/dist/magic-dots.css";
 import "./index.css";
 
 const SectionFive = () => {
-  const [value, setValue] = useState(0);
-  const [slides] = useState([<SectionFiveCarousel />, <SectionFiveCarousel />]);
-
-  const onChangeCarousel = (value) => {
-    setValue(value);
+  const settings = {
+    dots: true,
+    arrows: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    appendDots: (dots) => {
+      return <MagicSliderDots dots={dots} numDotsToShow={2} dotWidth={30} />;
+    },
   };
+
   return (
     <div className="section-five-container">
       <div className="section-five-text-container">
@@ -21,9 +31,13 @@ const SectionFive = () => {
           egetfeugiat. Mauris laoreet odio ex. Quisque eget ex
         </div>
       </div>
-      <Carousel value={value} slides={slides} onChange={onChangeCarousel} />
+      <Slider {...settings}>
+        <SectionFiveCarousel />
+        <SectionFiveCarousel />
+      </Slider>
+      {/* <Carousel value={value} slides={slides} onChange={onChangeCarousel} />
       <br />
-      <Dots value={value} onChange={onChangeCarousel} number={slides.length} />
+      <Dots value={value} onChange={onChangeCarousel} number={slides.length} /> */}
     </div>
   );
 };

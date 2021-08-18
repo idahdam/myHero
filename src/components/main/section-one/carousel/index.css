@@ -1,24 +1,55 @@
 .playstore {
-  max-width: 32%;
+  max-width: 100%;
   padding-left: 1%;
-  transform: translate(-8%, 16%);
+  padding-right: 1%;
+  transform: translate(-5%, 16%);
 }
 
 .appstore {
-  max-width: 26%;
-  transform: translateX(-10%);
+  max-width: 100%;
+  transform: translate(-10%, 46%);
 }
 
 .idx {
   max-width: 20%;
-  transform: translateY(10%);
+  transform: translate(100%, -50%);
 }
 
 .ojk {
-  max-width: 25%;
+  max-width: 19%;
+  transform: translateY(10%);
 }
 
 .mockup {
   transform: translate(30%, 0%);
   max-width: 24rem;
+}
+
+@media screen and (max-width: 960px) {
+  .playstore {
+    max-width: 65%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transform: translate(-5%, 16%);
+  }
+
+  .appstore {
+    max-width: 65%;
+    transform: translate(-75%, 45%);
+  }
+
+  .idx {
+    max-width: 12%;
+    transform: translate(0%, 10%);
+  }
+
+  .ojk {
+    max-width: 20%;
+    transform: translateY(10%);
+  }
+
+  .mockup {
+    transform: translate(30%, 0%);
+    max-width: 24rem;
+  }
 }
