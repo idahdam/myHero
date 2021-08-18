@@ -1,10 +1,8 @@
 /**
- * react-carousel docs: https://brainhubeu.github.io/react-carousel/docs/gettingStarted
+ * react-carousel docs: https://patricktran.github.io/react-magic-slider-dots/
  */
 
 import React, { useState } from "react";
-import Carousel, { Dots } from "@brainhubeu/react-carousel";
-import "@brainhubeu/react-carousel/lib/style.css";
 import "./index.css";
 // import investordaily from "../../../assets/section-one-hero/investordaily.png";
 import forbes from "../../../assets/section-one-hero/forbes.png";
@@ -12,6 +10,12 @@ import techinasia from "../../../assets/section-one-hero/techinasia.png";
 import cnbc from "../../../assets/section-one-hero/cnbc.png";
 import kompas from "../../../assets/section-one-hero/kompas.png";
 import SectionOneCarousel from "./carousel";
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import MagicSliderDots from "react-magic-slider-dots";
+import "react-magic-slider-dots/dist/magic-dots.css";
 
 const SectionOne = () => {
   const [click, setClick] = useState(false);
@@ -25,38 +29,35 @@ const SectionOne = () => {
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
-      console.log("mobie!");
     } else {
       setButton(true);
-      console.log("desk!");
     }
   };
   window.addEventListener("resize", showButton);
-  const [value, setValue] = useState(0);
-  const [slides] = useState([
-    <SectionOneCarousel />,
-    <SectionOneCarousel />,
-    <SectionOneCarousel />,
-    <SectionOneCarousel />,
-    <SectionOneCarousel />,
-  ]);
 
-  const onChangeCarousel = (value) => {
-    setValue(value);
+  const settings = {
+    dots: true,
+    arrows: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    appendDots: (dots) => {
+      return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />;
+    },
   };
 
   return (
     <>
       <div className="section-one-hero-container">
         <div className="section-one-hero-carousel">
-          <Carousel value={value} slides={slides} onChange={onChangeCarousel} />
+          <Slider {...settings}>
+            <SectionOneCarousel />
+            <SectionOneCarousel />
+            <SectionOneCarousel />
+            <SectionOneCarousel />
+          </Slider>
         </div>
-        <Dots
-          value={value}
-          onChange={onChangeCarousel}
-          number={slides.length}
-          className="section-one-dots-carousel"
-        />
         <div className="section-one-hero-reviewed">
           {button ? null : (
             <div className="section-one-hero-covered-by-mobile">
